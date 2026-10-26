@@ -1,0 +1,8 @@
+{
+  "source_repository": "nivesmik/hex-haven",
+  "source_pr": 3,
+  "source_sha": "17dee39c954f88cab2715a168d316143d9f5b37a",
+  "default_difficulty": "standard",
+  "default_seed": 202607,
+  "storage_prefix": "hexhaven-preview:pr-3:"
+}
