@@ -1,0 +1,31 @@
+{
+  "source_repository": "nivesmik/hex-haven",
+  "source_pr": 4,
+  "source_sha": "1ee621d9d59c73f41b3abffa724eea4c166ffa85",
+  "default_difficulty": "standard",
+  "default_seed": 202607,
+  "storage_prefix": "hexhaven-preview:pr-4:",
+  "files": {
+    "index-2d.html": "68adf1d83b0049119fdd0a30076042c369c886649e0ca6715c7294f75da39953",
+    "index.html": "e346957ab9cf7c6d62c69427c6f8d386f4a4287c229bdf6cca093e83707457fd",
+    "preview-entry.js": "691bc3f52367c28157e36ed4428c0b58781bbe1bab887c1e167602e8ae573c03",
+    "src/boot3d.js": "e755ea9b46547f4cec2b82c02090c4de465cf30b88985f5b48241ae205ee09e6",
+    "src/camera-controls.js": "83612fec187784ac7480918f3b1b045f4803fe72a77827ff4e4828a5526ca8ed",
+    "src/ecosystem.js": "b094f096cc023819dd8b1c3085b2be2f201afc542bff3c903b12df0af0b561a6",
+    "src/engine.js": "2509d28c9210d6c367102d323ec306d8ce87d15bd40eceb6adf8bc3556d664ae",
+    "src/experiment.js": "3300dad4d9340349cfa3d914ea4f12bcb37b94208dbd933eabdeea3ecb5741d0",
+    "src/main2d.js": "e6edc535acbda0b424bdf6e9dd86874bb4a67e22cf4a7019845fe30796ae87c5",
+    "src/main3d.js": "26e9d03f53211446eaf61dbfc3f7a7c7e507bb1e8fbfc51cec149bd792b5d8c8",
+    "src/placement-preview.js": "893b32365a9215f69c3c77e4f27a957506f378857e015f56543d63be03beb955",
+    "src/renderer.js": "82c9152bb8e44468a581e2cef0d070ac0fd72fab55ef1e9cb62d5c693341a9fa",
+    "src/renderer3d.js": "f4a48ecba98853d372414019313180d4f05d3a988850ebd065a696a570d42f94",
+    "src/visuals/hex-layout.js": "72c34dced0f6b11aa4c049ffd37e8c8b9e6d00890e947a1728c66f6dcebcfede",
+    "src/visuals/hex-terrain.js": "26b95adc04cd14b9021801d6f6e5909e6e17c2098018f337be67d5b0fa1a991b",
+    "src/visuals/nature.js": "c17854bbe48f858cbe608a7dc5ca10bef5d1b3d46a92f6616202d9219bc0f54d",
+    "src/visuals/otter.js": "4e977ba8542d3a0fdf35f151c4f3c2e083623bb67bae40294e58b299d9ac7814",
+    "style.css": "37836949ac7ecf7efcf95d0fa3493be1c078a14087f35f8029a1f1c90739de19",
+    "vendor/three/LICENSE": "4c40a1ef62450b857c3b2aaf294936304cd552d965fbcd9d32d4c5bcf4ba4454",
+    "vendor/three/README.md": "51cdf29c0e63eb2a1e6719e558b014e54827ea726a0ebad09d232fcec8d29d6f",
+    "vendor/three/three.module.js": "6c2bfdf07626404916f34aef8cf57992926d849526bc6eb4556da96a3ba4e78c"
+  }
+}
