@@ -1,7 +1,7 @@
-import {available} from './engine.js?rev=5329929';
-import {MobileTileGesture} from './mobile-tile-gesture.js?rev=5329929';
-import * as THREE from '../vendor/three/three.module.js?rev=5329929';
-import {TILE_TOP,worldToAxial,axialToWorld} from './visuals/hex-layout.js?rev=5329929';
+import {available} from './engine.js?rev=b926f3b';
+import {MobileTileGesture} from './mobile-tile-gesture.js?rev=b926f3b';
+import * as THREE from '../vendor/three/three.module.js?rev=b926f3b';
+import {TILE_TOP,worldToAxial,axialToWorld} from './visuals/hex-layout.js?rev=b926f3b';
 export class CameraControls{
  constructor(canvas,camera,onChange,onTap,tileCallbacks=null){
   this.canvas=canvas;this.camera=camera;this.onChange=onChange;this.onTap=onTap;this.points=new Map();this.listeners=[];this.reset();

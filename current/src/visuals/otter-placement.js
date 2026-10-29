@@ -1,5 +1,5 @@
-import {neighbors,key} from '../engine.js?rev=5329929';
-import {axialToWorld,edgePoint} from './hex-layout.js?rev=5329929';
+import {neighbors,key} from '../engine.js?rev=b926f3b';
+import {axialToWorld,edgePoint} from './hex-layout.js?rev=b926f3b';
 // Select an actual bank of this river; no new discovery condition is added.
 export function otterAnchor(board,eco){
  const forest=new Set(eco.forestTiles);

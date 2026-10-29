@@ -1,1 +1,1 @@
-import './src/boot3d.js?rev=5329929';
+import './src/boot3d.js?rev=b926f3b';

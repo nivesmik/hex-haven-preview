@@ -1,5 +1,5 @@
-import {THEMES} from './ecosystem.js?rev=5329929';
-import {available,rotate,scorePlacement,ecosystemProgress} from './engine.js?rev=5329929';
+import {THEMES} from './ecosystem.js?rev=b926f3b';
+import {available,rotate,scorePlacement,ecosystemProgress} from './engine.js?rev=b926f3b';
 // Canvas presentation only; edge order is shared with the axial engine.
 const colors={grass:'#a8ce83',forest:'#548b67',water:'#75b7d5',village:'#dcb17c'},icons={grass:'✿',forest:'♠',water:'≈',village:'⌂'};
 const vertex=(x,y,s,angle)=>({x:x+s*Math.cos(angle*Math.PI/180),y:y+s*Math.sin(angle*Math.PI/180)});

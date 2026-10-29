@@ -1,4 +1,4 @@
-import * as THREE from '../../vendor/three/three.module.js?rev=5329929';
+import * as THREE from '../../vendor/three/three.module.js?rev=b926f3b';
 // One self-contained shoreline prop. Root is on TILE_TOP; stone base is y=0.
 export function createOtter(kit){
  const g=new THREE.Group(),body=kit.geometry('otter-body',()=>new THREE.IcosahedronGeometry(1,1));

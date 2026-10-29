@@ -1,10 +1,12 @@
-import {AppShell} from './app-shell.js?rev=5329929';
-import {configureUndo} from './play-policy.js?rev=5329929';
-import {renderBoard,renderPreviews,resizeCanvases} from './renderer.js?rev=5329929';
-import {createGame,place,undo,available,rotate,serialize,deserialize,scorePlacement,objectives,createExperiment,experimentResult,EXPERIMENT_MODES} from './engine.js?rev=5329929';
+import {StageHUD} from './stage-hud.js?rev=b926f3b';
+import {AppShell} from './app-shell.js?rev=b926f3b';
+import {configureUndo} from './play-policy.js?rev=b926f3b';
+import {renderBoard,renderPreviews,resizeCanvases} from './renderer.js?rev=b926f3b';
+import {createGame,place,undo,available,rotate,serialize,deserialize,scorePlacement,objectives,createExperiment,experimentResult,EXPERIMENT_MODES} from './engine.js?rev=b926f3b';
 const $=id=>document.getElementById(id);
 const canvas=$('board'),ctx=canvas.getContext('2d'),preview=$('preview'),pctx=preview.getContext('2d');
 
+const stageHUD=new StageHUD();
 const allowUndo=configureUndo(document,location.search);
 const SESSION_KEY='hexhaven-preview:pr-4-integrated:hexhaven-v08-session';
 let shell=null;
@@ -58,7 +60,7 @@ function update(){
   }else $('selection').textContent='빈 칸 터치 → 회전 → 배치';
   $('message').textContent=game.status==='won'?'Pass · 목표 달성':game.status==='lost'?'Fail · 타일 소진':'별과 생태계 목표를 함께 완성하세요';
   if(!experiment&&game.status==='playing')$('message').textContent='빈 칸 터치 → 60° 회전 → 배치 확정';
-  save();shell?.update(game);draw();
+  stageHUD.update(game);save();shell?.update(game);draw();
 }
 let eventTimer=null;
 function clearEvents(){if(eventTimer!==null)window.clearTimeout(eventTimer);eventTimer=null;$('discovery').hidden=true;}

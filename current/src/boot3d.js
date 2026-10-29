@@ -1,5 +1,5 @@
 try{
-  await import('./main3d.js?rev=5329929');
+  await import('./main3d.js?rev=b926f3b');
 }catch(error){
   console.error(error);
   const note=document.getElementById('message');

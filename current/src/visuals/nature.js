@@ -1,4 +1,4 @@
-import * as THREE from '../../vendor/three/three.module.js?rev=5329929';
+import * as THREE from '../../vendor/three/three.module.js?rev=b926f3b';
 // Reusable low-poly primitives, shared across tiles and disposed with the scene.
 export class NatureKit{
  constructor(){this.geometries=[];this.materials=[];this.geo={};this.mat={};}

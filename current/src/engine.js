@@ -1,5 +1,5 @@
-import {riverProgress,RIVER_THEME,THEMES} from './ecosystem.js?rev=5329929';
-import {EXPERIMENT_MODES,seededOrder,habitatCapacity} from './experiment.js?rev=5329929';
+import {riverProgress,RIVER_THEME,THEMES} from './ecosystem.js?rev=b926f3b';
+import {EXPERIMENT_MODES,seededOrder,habitatCapacity} from './experiment.js?rev=b926f3b';
 export {EXPERIMENT_MODES,habitatCapacity};
 // HEX HAVEN rules module. No DOM, Canvas, assets or browser dependencies.
 // Axial coordinates and terrain arrays are intentionally portable to Unity/C#.

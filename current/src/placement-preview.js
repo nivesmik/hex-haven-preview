@@ -1,4 +1,4 @@
-import {available,rotate,scorePlacement,neighbors,key,objectives} from './engine.js?rev=5329929';
+import {available,rotate,scorePlacement,neighbors,key,objectives} from './engine.js?rev=b926f3b';
 export function placementPreview(game,cell){
  if(game.status!=='playing'||!cell||!available(game.board).some(p=>p.q===cell.q&&p.r===cell.r))return null;
  const source=game.deck[game.index],edges=rotate(source.edges,game.rotation);
